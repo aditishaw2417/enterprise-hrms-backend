@@ -18,4 +18,8 @@ public class RoleService {
         Role role = new Role(roleName, description);
         return roleRepository.save(role);
     }
+    public Role getByRoleName(String roleName){
+        return roleRepository.findByRoleName(roleName)
+            .orElseThrow(() -> new RuntimeException("Role not found!" + roleName));
+    }
 }
