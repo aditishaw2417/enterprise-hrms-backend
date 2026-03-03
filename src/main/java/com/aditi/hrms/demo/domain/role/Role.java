@@ -1,4 +1,4 @@
-package com.aditi.hrms.demo.model.role;
+package com.aditi.hrms.demo.domain.role;
 
 public class Role {
     private Long id;

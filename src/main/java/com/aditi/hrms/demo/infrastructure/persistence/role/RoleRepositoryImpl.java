@@ -1,11 +1,11 @@
 package com.aditi.hrms.demo.infrastructure.persistence.role;
 
-import com.aditi.hrms.demo.model.role.Role;
-import com.aditi.hrms.demo.model.role.RoleRepository;
-
 import java.util.Optional;
 
 import org.springframework.stereotype.Repository;
+
+import com.aditi.hrms.demo.domain.role.Role;
+import com.aditi.hrms.demo.domain.role.RoleRepository;
 
 @Repository
 public class RoleRepositoryImpl implements RoleRepository {
