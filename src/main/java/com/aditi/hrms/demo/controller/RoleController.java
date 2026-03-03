@@ -3,10 +3,10 @@ package com.aditi.hrms.demo.controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+import com.aditi.hrms.demo.application.role.RoleService;
+import com.aditi.hrms.demo.domain.role.Role;
 import com.aditi.hrms.demo.dto.role.CreateRoleRequest;
 import com.aditi.hrms.demo.dto.role.RoleResponse;
-import com.aditi.hrms.demo.model.role.Role;
-import com.aditi.hrms.demo.service.role.RoleService;
 
 import jakarta.validation.Valid;
 

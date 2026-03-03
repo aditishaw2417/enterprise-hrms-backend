@@ -1,9 +1,9 @@
-package com.aditi.hrms.demo.service.role;
+package com.aditi.hrms.demo.application.role;
 
 import org.springframework.stereotype.Service;
 
-import com.aditi.hrms.demo.model.role.Role;
-import com.aditi.hrms.demo.model.role.RoleRepository;
+import com.aditi.hrms.demo.domain.role.Role;
+import com.aditi.hrms.demo.domain.role.RoleRepository;
 
 @Service
 public class RoleService {
